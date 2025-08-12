@@ -1,0 +1,5 @@
+# Basic Commands
+
+```bash
+>> pwd
+```

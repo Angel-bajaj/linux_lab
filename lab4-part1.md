@@ -28,3 +28,16 @@ cp -r dir1 dir2
 # Preserve file attributes (timestamps, permissions)
 cp -p source.txt backup.txt
 ```
+
+## mv – Move or Rename Files
+```
+# Rename a file
+mv oldname.txt newname.txt
+
+# Move file to another directory
+mv file.txt /path/to/destination/
+
+# Move and overwrite without prompt
+mv -f file.txt /destination/
+
+```

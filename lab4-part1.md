@@ -1,7 +1,7 @@
 # Advanced file linux commands
 
 ## 🚀1. File Manipulation Commands
-> touch – Create or Update File Timestamps
+>✅touch – Create or Update File Timestamps
 
 ```
 # Create an empty file
@@ -14,6 +14,7 @@ touch existing.txt
 touch file2.txt file3.txt
 
 ```
+### 📷Image 1 :
 
 ## 🚀cp – Copy Files and Directories
 

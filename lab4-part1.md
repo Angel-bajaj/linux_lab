@@ -1,6 +1,6 @@
 # Advanced file linux commands
 
-## 1. File Manipulation Commands
+## 🚀1. File Manipulation Commands
 > touch – Create or Update File Timestamps
 
 ```
@@ -15,7 +15,7 @@ touch file2.txt file3.txt
 
 ```
 
-## cp – Copy Files and Directories
+## 🚀cp – Copy Files and Directories
 
 ```
 # Copy a file
@@ -32,7 +32,7 @@ cp -p source.txt backup.txt
 
 ```
 
-## mv – Move or Rename Files
+## 🚀mv – Move or Rename Files
 
 ```
 # Rename a file
@@ -45,7 +45,7 @@ mv file.txt /path/to/destination/
 mv -f file.txt /destination/
 
 ```
-## rm – Remove Files and Directories
+## 🚀rm – Remove Files and Directories
 ```
 # Remove a file
 rm file.txt
@@ -59,7 +59,7 @@ rm -r foldername/
 # Force remove without prompt
 rm -rf foldername/
 ```
-## cat – View or Concatenate Files
+## 🚀cat – View or Concatenate Files
 ```
 # Display file contents
 cat file.txt
@@ -71,7 +71,7 @@ cat file1.txt file2.txt > combined.txt
 cat -n file.tx
 ```
 
-## less – View File One Page at a Time
+## 🚀less – View File One Page at a Time
 ```
 less file.txt
 # Navigation inside less:
@@ -79,7 +79,7 @@ less file.txt
 # b → previous page
 # q → quit
 ```
-## head – Show First Lines of a File
+## 🚀head – Show First Lines of a File
 
 ```
 # First 10 lines (default)
@@ -89,7 +89,7 @@ head file.txt
 head -n 20 file.txt
 ```
 
-## tail – Show Last Lines of a File
+## 🚀tail – Show Last Lines of a File
 ```
 # Last 10 lines (default)
 tail file.txt
@@ -101,8 +101,8 @@ tail -n 15 file.txt
 tail -f logfile.txt
 ```
 
-## 2. File Permissions and Ownership
-### ls -l – View Detailed File Info
+## 🚀2. File Permissions and Ownership
+### ✅ls -l – View Detailed File Info
 ```
 ls -l
 # Example output:
@@ -117,12 +117,12 @@ ls -l
 # [7] file.txt → File name
 ```
 
-## File Permission Structure
+## 🚀File Permission Structure
 - `Owner (u) – File creator`
 - `Group (g) – Users in same group`
 - `Others (o) – Everyone else Permissions: r (read), w (write), x (execute)`
 
-## chmod – Change File Permissions
+## 🚀chmod – Change File Permissions
 ```
 # Symbolic method
 chmod u+x file.sh   # Add execute for owner
@@ -133,7 +133,7 @@ chmod o+r file.txt  # Add read for others
 chmod 755 file.sh   # rwxr-xr-x
 chmod 644 file.txt  # rw-r--r--
 ```
-## chown – Change File Owner
+## 🚀chown – Change File Owner
 ```
 # Change owner
 sudo chown newuser file.txt
@@ -142,7 +142,7 @@ sudo chown newuser file.txt
 sudo chown newuser:newgroup file.txt
 ```
 
-## chgrp – Change Group
+## 🚀chgrp – Change Group
 ```
 sudo chgrp developers file.txt
 ```

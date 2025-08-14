@@ -14,7 +14,9 @@ touch existing.txt
 touch file2.txt file3.txt
 
 ```
-### 📷Image 1 :
+### 📸Image 1:(creating a new file using the touch command)
+
+
 
 ## 🚀cp – Copy Files and Directories
 
@@ -32,6 +34,7 @@ cp -r dir1 dir2
 cp -p source.txt backup.txt
 
 ```
+### 📸Image 2:(copying files using the cp command)
 
 ## 🚀mv – Move or Rename Files
 

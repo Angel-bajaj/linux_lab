@@ -118,9 +118,11 @@ ls -l
 ```
 
 ## File Permission Structure
--`Owner (u) – File creator`
--`Group (g) – Users in same group`
--`Others (o) – Everyone else Permissions: r (read), w (write), x (execute)`
+- `Owner (u) – File creator`
+
+- `Group (g) – Users in same group`
+
+- `Others (o) – Everyone else Permissions: r (read), w (write), x (execute)`
 
 ## chmod – Change File Permissions
 ```

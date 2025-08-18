@@ -14,8 +14,12 @@ touch existing.txt
 touch file2.txt file3.txt
 
 ```
+### 📸Image 1 : (creating a new file using the touch command)
+![alt text](<Screenshot (9).png>)
+
 
 ## 🚀cp – Copy Files and Directories
+
 
 ```
 # Copy a file
@@ -32,6 +36,7 @@ cp -p source.txt backup.txt
 
 ```
 ### 📸Image 2:(copying files using the cp command)
+![alt text](<Screenshot (10).png>)
 
 ## 🚀mv – Move or Rename Files
 
@@ -60,6 +65,9 @@ rm -r foldername/
 # Force remove without prompt
 rm -rf foldername/
 ```
+### 📸Image : (changing names , removing files using the mv , rm commands)
+![alt text](<Screenshot (13).png>)
+
 ## 🚀cat – View or Concatenate Files
 ```
 # Display file contents
@@ -146,4 +154,62 @@ sudo chown newuser:newgroup file.txt
 ## 🚀chgrp – Change Group
 ```
 sudo chgrp developers file.txt
+```
+# 3. Advanced File and Directory Operations
+## find – Search for Files
+```
+# Find by name
+find /path -name "file.txt"
+
+# Find by extension
+find /path -name "*.log"
+
+# Find by size (>100MB)
+find /path -size +100M
+
+# Find and delete
+find /path -name "*.tmp" -delete
+
+```
+## grep – Search Text in Files
+```
+# Search a pattern
+grep "error" logfile.txt
+
+# Case-insensitive search
+grep -i "error" logfile.txt
+
+# Recursive search in directory
+grep -r "TODO" /project/
+
+# Show line numbers
+grep -n "warning" logfile.txt
+```
+## tar – Archive Files
+```
+# Create archive
+tar -cvf archive.tar file1 file2 dir/
+
+# Extract archive
+tar -xvf archive.tar
+
+# View archive contents
+tar -tvf archive.tar
+```
+## gzip / gunzip – Compress & Decompress
+```
+# Compress
+gzip file.txt  # Creates file.txt.gz
+
+# Decompress
+gunzip file.txt.gz
+```
+
+## ln – Create Links
+```
+# Hard link
+ln original.txt hardlink.txt
+
+# Symbolic (soft) link
+ln -s /path/to/original symlinkname
 ```

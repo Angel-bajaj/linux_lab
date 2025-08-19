@@ -1,13 +1,13 @@
-# Basic linux Commands
+# ✅Basic linux Commands
 > pwd
 ```
-output example :
+📌Output example :
 
 /d/UPES/Linux_Lab
 ```
 
-## Is command- List Directory contents
-this is command in linux
+## 🚀 Is command- List Directory contents
+This is command in linux
 
 
 > ls
@@ -18,14 +18,14 @@ Lists files and folders in the current directory.
 - `ls -la` → Combined
 
 
-### Is flags
+## 🚀Is flags
 
 > ls -a
 The ls command is linux allows to to view all the files and folder in current working directory. Flag -a list down all file and folder including the one which are hidden
 
 
 ```
-Output example :
+📌Output example :
 
 rwxr-xr-x 1 HP 197121      0 Aug 12 13:37  ./
 drwxr-xr-x 1 HP 197121      0 Aug 12 13:15  ../
@@ -37,6 +37,6 @@ drwxr-xr-x 1 HP 197121      0 Aug 12 13:34  .git/
 -rw-r--r-- 1 HP 197121  14800 Aug 12 13:37 'Screenshot (7).png'
 
 ```
-## image screenshot
+## 📸Image of commands :  
 
 ![alt text](<Screenshot (8).png>)

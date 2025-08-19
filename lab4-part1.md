@@ -155,8 +155,8 @@ sudo chown newuser:newgroup file.txt
 ```
 sudo chgrp developers file.txt
 ```
-# 3. Advanced File and Directory Operations
-## find – Search for Files
+# ✅3. Advanced File and Directory Operations
+## 🚀find – Search for Files
 ```
 # Find by name
 find /path -name "file.txt"
@@ -171,7 +171,7 @@ find /path -size +100M
 find /path -name "*.tmp" -delete
 
 ```
-## grep – Search Text in Files
+## 🚀grep – Search Text in Files
 ```
 # Search a pattern
 grep "error" logfile.txt
@@ -185,7 +185,7 @@ grep -r "TODO" /project/
 # Show line numbers
 grep -n "warning" logfile.txt
 ```
-## tar – Archive Files
+## 🚀tar – Archive Files
 ```
 # Create archive
 tar -cvf archive.tar file1 file2 dir/
@@ -196,7 +196,7 @@ tar -xvf archive.tar
 # View archive contents
 tar -tvf archive.tar
 ```
-## gzip / gunzip – Compress & Decompress
+## 🚀gzip / gunzip – Compress & Decompress
 ```
 # Compress
 gzip file.txt  # Creates file.txt.gz
@@ -205,7 +205,7 @@ gzip file.txt  # Creates file.txt.gz
 gunzip file.txt.gz
 ```
 
-## ln – Create Links
+## 🚀ln – Create Links
 ```
 # Hard link
 ln original.txt hardlink.txt

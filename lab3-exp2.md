@@ -1,10 +1,9 @@
-# Navigation commands
+# 🌍Navigation commands
 
 > pwd – Print Working Directory
 ```
 Shows the current location in the filesystem.
 
-pwd
 📌 Output example:
 
 /Users/yourname/projects
@@ -28,7 +27,7 @@ cd Documents        # Go to Documents
 cd ..               # Go up one level
 cd /                # Go to root
 cd ~                # Go to home directory
-## 2. File and Directory Management
+## 📁2. File and Directory Management
 ```
 mkdir – Make Directory
 Creates a new folder.
@@ -50,7 +49,7 @@ rm file.txt          # Delete file
 rm -r folder_name    # Delete folder (recursively)
 ⚠️ Be careful! There is no undo.
 ```
-## 3. File Viewing & Editing
+## 📸3. File Viewing & Editing
 ```
 cat – View File Contents
 Displays content in terminal.
@@ -68,7 +67,7 @@ clear
 Shortcut: CTRL + L
  
 ```
-## 4. System Commands
+## 💬4. System Commands
 ```
 echo – Print Text
 Useful for debugging or scripting.
@@ -81,7 +80,7 @@ man ls
 Use q to quit the manual.
 ```
 
-## 5. Searching and Finding
+## 🔍5. Searching and Finding
 ```
 find – Locate Files
 find . -name "*.txt"

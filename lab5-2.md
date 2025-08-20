@@ -92,7 +92,7 @@ chmod u+x,g-w project.sh   # Add execute for user, remove write for group
 chown root:admin project.sh # Change owner to root and group to admin
 ```
 
-##🔹 5. Quick Reference Table
+## 🔹 5. Quick Reference Table
 
 - `Numeric	Permission	Meaning`
 - `0	---	No access`

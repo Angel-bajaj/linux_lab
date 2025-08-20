@@ -69,3 +69,39 @@ chmod g-w notes.txt     # Remove write from group
 chmod o=r file.txt      # Set others to read only
 chmod a+r report.txt    # Everyone gets read access
 ```
+## (C) Recursive Changes
+chmod -R 755 /mydir
+- `-R → applies changes recursively to all files/subdirectories.`
+
+## 🔹 3. chown – Change File Ownership
+### Syntax
+
+chown [options] new_owner:new_group filename
+
+## image of chown command- 
+ 
+## 🔹 4. Putting It All Together
+### Example Scenario
+```
+touch project.sh
+ls -l project.sh
+
+
+chmod 700 project.sh       # Only owner has rwx
+chmod u+x,g-w project.sh   # Add execute for user, remove write for group
+chown root:admin project.sh # Change owner to root and group to admin
+```
+
+##🔹 5. Quick Reference Table
+
+- `Numeric	Permission	Meaning`
+- `0	---	No access`
+- `1	--x	Execute only`
+- `2	-w-	Write only`
+- `3	-wx	Write + Exec`
+- `4	r--	Read only`
+- `5	r-x	Read + Exec`
+- `6	rw-	Read + Write`
+- `7 rwx	Full access`
+✅ Key Tip: Use numeric for quick settings (e.g., 755, 644) and symbolic for fine adjustments (u+x, g-w).
+

@@ -53,6 +53,8 @@ chmod 755 script.sh
 - `Owner: 7 → rwx`
 - `Group: 5 → r-x`
 - `Others: 5 → r-x`
+## image of chown command- 
+
 
 
 ## (B) Symbolic Method

@@ -24,7 +24,7 @@ chmod +x hello.sh   # make it executable
 ./hello.sh
 ```
 
-## Output image of the commands :
+### 📸Output image of the commands :
 
 
 ---
@@ -53,7 +53,7 @@ Output:
 ```
 My name is Angel and I am 18 years old.
 ```
-### output image of the commands : 
+### 📸output image of the commands : 
 
 
 
@@ -77,6 +77,8 @@ echo "Enter your favorite language:"
 read lang
 echo "You chose $lang"
 ```
+### 📸Output image of the commands :
+
 
 ---
 
@@ -101,6 +103,8 @@ Operators:
 * `-lt` (less than)
 * `-ge` (greater or equal)
 * `-le` (less or equal)
+### 📸Output image of the commands :
+
 
 ---
 
@@ -159,16 +163,17 @@ greet() {
     echo "Hello, $1"
 }
 
-greet Vibhu
+greet Angel
 greet World
 ```
 
 Output:
 
 ```
-Hello, Vibhu
+Hello, Angel
 Hello, World
 ```
+###  📸Output image of the commands :
 
 ---
 
@@ -200,6 +205,7 @@ Second argument: banana
 All arguments: apple banana
 Number of arguments: 2
 ```
+### 📸Output image of the commands :
 
 ---
 

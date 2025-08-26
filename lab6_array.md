@@ -1,6 +1,6 @@
 # 📘 Array Scripts Overview
 
-This file explains and demonstrates **three core array operations** in **Shell Scripting (Bash)** — using fruits 🍎🍌🍇 instead of numbers for clarity and fun.
+This file explains and demonstrates **three core array operations** in **Shell Scripting (Bash)** — using fruits names 🍎.
 
 ---
 

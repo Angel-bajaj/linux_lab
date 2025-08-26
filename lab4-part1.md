@@ -15,7 +15,7 @@ touch file2.txt file3.txt
 
 ```
 ### 📸Image 1 : (creating a new file using the touch command)
-![alt text](<Screenshot (9).png>)
+![alt text](images/Screenshot%20(9).png)
 
 
 ## 🚀cp – Copy Files and Directories
@@ -36,7 +36,7 @@ cp -p source.txt backup.txt
 
 ```
 ### 📸Image 2:(copying files using the cp command)
-![alt text](<Screenshot (10).png>)
+![alt text](images/Screenshot%20(10).png)
 
 ## 🚀mv – Move or Rename Files
 
@@ -66,7 +66,7 @@ rm -r foldername/
 rm -rf foldername/
 ```
 ### 📸Image : (changing names , removing files using the mv , rm commands)
-![alt text](<Screenshot (13).png>)
+![alt text](images/Screenshot%20(13).png)
 
 ## 🚀cat – View or Concatenate Files
 ```

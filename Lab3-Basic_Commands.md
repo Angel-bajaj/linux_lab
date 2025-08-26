@@ -39,4 +39,4 @@ drwxr-xr-x 1 HP 197121      0 Aug 12 13:34  .git/
 ```
 ## 📸Image of commands :  
 
-![alt text](<Screenshot (8).png>)
+![alt text](images/Screenshot%20(8).png)

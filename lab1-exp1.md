@@ -90,4 +90,4 @@ Connect to the VM’s IP via SSH from VS Code
 
 ## 🐧 downloading image of ubuntu : 
 
-![alt text](<Screenshot (2).png>)
+![alt text](images/Screenshot%20(2).png)

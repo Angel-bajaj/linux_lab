@@ -28,7 +28,6 @@ Use "${fruits[@]}" to preserve each element, even if it contains spaces.
 
 
 ## 🔹 2. Using while Loop + Length
-
 ➡️ **Purpose:** Manually iterate using an index and the array’s length.
 ✅ **Best when:** You need fine control over index-based operations.
 
@@ -54,7 +53,6 @@ done
 ### 📸Screenshot 2 :While Loop + Length Output
 
 ## 🔹 3. Array Slicing
-
 ➡️ **Purpose:** Extract specific portions of an array.
 ✅ **Best when:** You need just part of the data without changing the original.
 

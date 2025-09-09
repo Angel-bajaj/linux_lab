@@ -1,93 +1,182 @@
-# ✅ Steps to download virtual box, ubuntu and vs code
 
-## 🐧 Part 1: Install VirtualBox
-Go to VirtualBox download page:
-https://www.virtualbox.org/wiki/Downloads
 
-Download for your OS:
+# LAB-0  – Linux Installation and Setup
 
-Windows → “Windows hosts”
+This experiment covers installing **VirtualBox**, setting up **Ubuntu** inside it, installing **Visual Studio Code** on Ubuntu,running few usual commands.
 
-macOS → “OS X hosts”
+---
+## 1. Installation Method
+Chosen Method: **Option A – Virtual Machine**  
 
-Linux → choose your distro
+## 2. Installation Steps
 
-Install VirtualBox:
+## 1️⃣ Install VirtualBox
+1. Download VirtualBox from the official site:  
+   [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)  
+2. Choose **Windows hosts**.  
+3. Run the installer and follow default settings.  
 
-Run the installer you downloaded
+![alt text](images/image.png)
 
-Follow the installation prompts
 
-Accept default settings unless you need something specific
+---
 
-## 🐧 Part 2: Download Ubuntu ISO
-Go to Ubuntu download page:
-https://ubuntu.com/download/desktop
+## 2️⃣ Download Ubuntu ISO
+1. Visit: [https://ubuntu.com/download/desktop](https://ubuntu.com/download/desktop)  
+2. Select **Ubuntu 22.04 LTS** and download the `.iso` file.  
 
-Click “Download” for the latest LTS version (e.g., Ubuntu 24.04 LTS)
+![alt text](images/image-1.png)
 
-Save the ISO file — this will be used to install Ubuntu in VirtualBox.
+---
 
-## 🐧 Part 3: Set Up Ubuntu in VirtualBox
-Open VirtualBox and click "New"
+## 3️⃣ Install VS Code in Ubuntu
+1. In Ubuntu, open **Firefox** (default browser).  
+2. Go to: [https://code.visualstudio.com/Download](https://code.visualstudio.com/Download)  
+3. Download the **.deb** package for Debian/Ubuntu.  
+4. Double-click the `.deb` file → Install via Ubuntu Software.  
+5. Launch **VS Code** from the Applications menu.
 
-Fill out:
+![alt text](images/image-2.png)
 
-Name: e.g., "Ubuntu"
+---
 
-Type: Linux
+## 5️⃣ Final Setup
+- You can now use VS Code inside Ubuntu for coding.  
+- Enable **full-screen mode** in VirtualBox for a better experience.  
 
-Version: Ubuntu (64-bit)
+![alt text](<Screenshot from 2025-09-09 13-21-01.png>)
+---
 
-Click Next
+✅ **You have successfully set up VirtualBox, Ubuntu, and VS Code!**
 
-Memory size: At least 2048 MB (2 GB), ideally 4096 MB (4 GB) or more
-
-Create a virtual hard disk now → VDI → Dynamically allocated → at least 20 GB
-
-Start the VM and select the Ubuntu ISO you downloaded
-
-Install Ubuntu inside the VM:
-
-Choose your language and install options
-
-Use default installation settings
-
-Create a username and password
-
-Let the installation complete and reboot
-
-## 🐧 Part 4: Install VS Code
-Go to the VS Code download page:
-https://code.visualstudio.com/Download
-
-Download for your host OS (Windows/macOS/Linux)
-
-Install VS Code like any regular app
-
-## 🐧 Part 5: Optional – Use VS Code with Ubuntu VM
-If you want to code inside the Ubuntu VM and use VS Code from your host system, do the following:
-
-Option 1: Use VS Code inside the VM
-Open Firefox in Ubuntu VM → Download VS Code for Linux
-
-Install using .deb file
-
-Use VS Code directly inside Ubuntu VM
-
-Option 2: Use VS Code on host with VM via SSH (advanced)
-Install OpenSSH server on Ubuntu:
-
-bash
-Copy
-Edit
-sudo apt install openssh-server
-Use VS Code Remote - SSH extension on your host system
-
-Connect to the VM’s IP via SSH from VS Code
+---
+## 3. Terminal Outputs
 
 
 
-## 🐧 downloading image of ubuntu : 
+## 1️⃣ lsb_release -a
+The command lsb_release -a displays information about the Linux distribution you are running.
 
-![alt text](images/Screenshot%20(2).png)
+lsb_release = Linux Standard Base release.
+
+-a option = shows all available details.
+
+It typically outputs:
+
+- Distributor ID (e.g., Ubuntu, Debian)
+
+- Description (full name of the OS + version)
+
+- Release (version number, e.g., 22.04)
+
+- Codename (e.g., jammy, focal)
+
+### Sample Output:
+
+![alt text](images/image-36.png)
+
+## 2️⃣ $ uname -a
+The command uname -a prints detailed system information about the Linux kernel and machine.
+
+uname = Unix Name
+
+-a option = shows all available details.
+
+It typically outputs:
+
+- Kernel name (e.g., Linux)
+
+- Hostname of the machine
+
+- Kernel release (version number)
+
+- Kernel version (build details)
+
+- Machine hardware name (e.g., x86_64)
+
+- Processor type
+
+- Hardware platform
+
+- Operating system
+
+## Sample Output:
+
+![alt text](images/image-37.png)
+
+## 3️⃣  df -h
+The command df -h displays the disk space usage of all mounted file systems.
+
+df = disk free
+
+-h option = human-readable format (sizes shown in KB, MB, GB instead of raw blocks).
+
+It typically shows:
+
+- Filesystem name (e.g., /dev/sda1)
+
+- Size of the partition
+
+- Used space
+
+- Available space
+
+- Percentage of usage
+
+- Mount point (where the filesystem is attached, e.g., / or /home)
+
+### Sample Output:
+!![alt text](images/image-38.png)
+
+## 4️⃣ free -m
+The command free -m displays the system’s memory (RAM and swap) usage in megabytes.
+
+free = shows memory usage summary.
+
+-m option = presents values in MB (megabytes).
+
+It typically shows:
+
+- **total**: total installed RAM
+
+- **used**: RAM currently in use
+
+- **free**: unused RAM
+
+- **shared**: memory used by tmpfs/shmem
+
+- **buff/cache**: memory used for disk caching
+
+- **available**: RAM available for starting new applications
+
+- **swap**: usage of swap space (virtual memory)
+
+### Sample Output:
+![alt text](images/image-39.png)
+---
+
+## 4. Reflection
+
+During installation, the main challenges I faced were:
+
+- Setting up VirtualBox guest additions.
+
+- Configuring correct RAM and disk size.
+
+- Enabling virtualization in BIOS.
+
+---
+
+## 5. Extra Questions
+
+**Q1.** What are two advantages of installing Ubuntu in VirtualBox?
+
+- Can run Ubuntu without affecting existing OS.
+
+- Easy to take snapshots and revert to earlier states.
+
+**Q2.** What are two advantages of dual booting instead of using a VM?
+
+- Better performance (uses hardware directly).
+
+- Access to full system resources (RAM, GPU, disk).b

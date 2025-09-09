@@ -1,6 +1,6 @@
 
 
-# LAB-0  – Linux Installation and Setup
+# ✅LAB-0  – Linux Installation and Setup
 
 This experiment covers installing **VirtualBox**, setting up **Ubuntu** inside it, installing **Visual Studio Code** on Ubuntu,running few usual commands.
 

@@ -21,6 +21,8 @@ Chosen Method: **Option A – Virtual Machine**
 
 ---
 
+
+
 ## 2️⃣ Download Ubuntu ISO
 1. Visit: [https://ubuntu.com/download/desktop](https://ubuntu.com/download/desktop)  
 2. Select **Ubuntu 22.04 LTS** and download the `.iso` file.  

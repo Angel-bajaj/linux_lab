@@ -1,3 +1,100 @@
+# ✅LAB-0  – Linux Installation and Setup
+
+# 🌍Navigation commands
+
+> pwd – Print Working Directory
+```
+Shows the current location in the filesystem.
+
+📌 Output example:
+
+/Users/yourname/projects
+```
+
+## ls – List Directory Contents
+Lists files and folders in the current directory.
+
+
+- `ls -l → Detailed list (permissions, size, date)`
+- `ls -a → Shows hidden files (those starting with .)`
+- `ls -la → Combined`
+
+## 📸Output image of the commands- 
+
+![alt text](<../images/Screenshot from 2025-09-10 20-58-30.png>)
+
+## cd – Change Directory
+Moves into a directory.
+
+cd folder_name
+Examples:
+
+cd Documents        # Go to Documents
+cd ..               # Go up one level
+cd /                # Go to root
+cd ~                # Go to home directory
+
+
+
+
+
+## 📁2. File and Directory Management
+```
+mkdir – Make Directory
+Creates a new folder.
+
+mkdir new_folder
+touch – Create File
+Creates an empty file.
+
+touch file.txt
+```
+## 📸Output image of the commands- 
+![alt text](<../images/Screenshot from 2025-09-10 21-11-13.png>)
+
+## cp – Copy Files or Directories
+```
+cp source.txt destination.txt
+Copy folder:
+cp -r folder1 folder2
+```
+### mv – Move or Rename Files
+```
+mv oldname.txt newname.txt
+mv file.txt ~/Documents/     # Move file
+```
+
+### rm – Remove Files
+```
+rm file.txt          # Delete file
+rm -r folder_name    # Delete folder (recursively)
+⚠️ Be careful! There is no undo.
+
+```
+## 📸Image : (changing names , removing files using the mv , rm commands)
+![alt text](<../images/Screenshot from 2025-09-10 21-14-11.png>)
+
+## 📸3. File Viewing & Editing
+```
+cat – View File Contents
+Displays content in terminal.
+
+cat file.txt
+nano – Edit Files in Terminal
+A basic terminal-based text editor.
+
+nano file.txt
+Use arrows to move
+CTRL + O to save
+CTRL + X to exit
+clear – Clears the Terminal
+clear
+Shortcut: CTRL + L
+ 
+```
+## 📸Output image of the commands- 
+![alt text](<../images/Screenshot from 2025-09-10 21-19-21.png>)
+
  # ✅File Permissions with `chmod` and `chown`
 
 ---
@@ -33,7 +130,7 @@ Breakdown:
 
 ---
 ## 📸Output image of the commands- 
-
+![alt text](<Screenshot from 2025-09-10 21-23-53.png>)
 
 
 ##  🚀2. `chmod` – Change File Permissions
@@ -107,7 +204,7 @@ chmod -R 755 /mydir
 * `-R` → applies changes recursively to all files/subdirectories.
 
 ## 📸Output image of chmod commands- 
-
+![alt text](<../images/Screenshot from 2025-09-10 21-23-53.png>)
 
 ---
 
@@ -152,8 +249,6 @@ chmod 700 project.sh       # Only owner has rwx
 chmod u+x,g-w project.sh   # Add execute for user, remove write for group
 chown root:admin project.sh # Change owner to root and group to admin
 ```
-
-## 📸Output image of chown commands- 
 
 
 ---
@@ -258,7 +353,7 @@ pwd
 In Unix-based systems (Linux, macOS), you can easily check your **current directory** and **current user** using simple terminal commands.
 
 
-## 1. Check the Current Directory
+#### 1. Check the Current Directory
 
 To check your **current directory**, use the `pwd` command:
 
@@ -269,7 +364,7 @@ $ pwd
 /home/alice/projects
 ```
 
-### Checking the Current User
+**Checking the Current User** 
 
 In Unix-based systems (Linux, macOS), you can check the **current user** using the `whoami` command.
 

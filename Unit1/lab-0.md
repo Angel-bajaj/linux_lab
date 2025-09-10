@@ -69,7 +69,7 @@ It typically outputs:
 
 - Codename (e.g., jammy, focal)
 
-### Sample Output:
+###  📸Output image of the commands :
 
 ![alt text](<../images/Screenshot from 2025-09-09 20-37-22.png>)
 
@@ -98,7 +98,8 @@ It typically outputs:
 
 - Operating system
 
-## Sample Output:
+###  📸Output image of the commands :
+
 ![alt text](<../images/Screenshot from 2025-09-09 20-38-35.png>)
 
 ## 3️⃣  df -h
@@ -122,7 +123,7 @@ It typically shows:
 
 - Mount point (where the filesystem is attached, e.g., / or /home)
 
-### Sample Output:
+###  📸Output image of the commands :
 
 ![alt text](<../images/Screenshot from 2025-09-09 20-39-43.png>)
 
@@ -137,6 +138,8 @@ It typically shows:
 
 - **total**: total installed RAM
 
+
+
 - **used**: RAM currently in use
 
 - **free**: unused RAM
@@ -149,7 +152,7 @@ It typically shows:
 
 - **swap**: usage of swap space (virtual memory)
 
-### Sample Output:
+###  📸Output image of the commands :
 
 ![alt text](<../images/Screenshot from 2025-09-09 20-40-37.png>)
 
@@ -167,7 +170,7 @@ During installation, the main challenges I faced were:
 
 ---
 
-## 5. Extra Questions
+## 📌5. Extra Questions
 
 **Q1.** What are two advantages of installing Ubuntu in VirtualBox?
 

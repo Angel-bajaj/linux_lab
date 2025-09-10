@@ -179,8 +179,7 @@ chown root:admin project.sh # Change owner to root and group to admin
 
 
 ## 📌Extra questions -
-
-### Difference Between `chmod` and `chown` ?
+**Q1** Difference Between `chmod` and `chown` ?
 
 In Unix-based operating systems (Linux, macOS), `chmod` and `chown` are two important commands used to manage files and directories. While both are related to permissions and ownership, they serve different purposes.
 
@@ -239,7 +238,7 @@ Understanding the difference between `chmod` and `chown` is crucial for managing
 
 
 
-## How do you check current directory and user ?
+**Q2** How do you check current directory and user ?
 
 ### Checking the Current Directory and Current User
 

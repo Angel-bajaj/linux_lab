@@ -1,4 +1,4 @@
-# ✅LAB-0  – Linux Installation and Setup
+# ✅LAB-1  – Linux Basics
 
 # 🌍Navigation commands
 

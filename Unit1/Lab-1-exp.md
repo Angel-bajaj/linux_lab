@@ -1,4 +1,4 @@
-# Advanced file linux commands
+# Advanced file linu  x commands
 
 ## 🚀1. File Manipulation Commands
 >✅touch – Create or Update File Timestamps

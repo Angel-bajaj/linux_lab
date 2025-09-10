@@ -16,11 +16,8 @@ Chosen Method: **Option A – Virtual Machine**
 2. Choose **Windows hosts**.  
 3. Run the installer and follow default settings.  
 
-![alt text](images/image.png)
-
 
 ---
-
 
 
 ## 2️⃣ Download Ubuntu ISO
@@ -75,7 +72,7 @@ It typically outputs:
 
 ### Sample Output:
 
-![alt text](images/image-36.png)
+![alt text](<Screenshot from 2025-09-09 20-37-22.png>)
 
 ## 2️⃣ $ uname -a
 The command uname -a prints detailed system information about the Linux kernel and machine.
@@ -104,7 +101,7 @@ It typically outputs:
 
 ## Sample Output:
 
-![alt text](images/image-37.png)
+![alt text](<Screenshot from 2025-09-09 20-38-35.png>)
 
 ## 3️⃣  df -h
 The command df -h displays the disk space usage of all mounted file systems.
@@ -128,7 +125,8 @@ It typically shows:
 - Mount point (where the filesystem is attached, e.g., / or /home)
 
 ### Sample Output:
-!![alt text](images/image-38.png)
+
+![alt text](<Screenshot from 2025-09-09 20-39-43.png>)
 
 ## 4️⃣ free -m
 The command free -m displays the system’s memory (RAM and swap) usage in megabytes.
@@ -154,7 +152,9 @@ It typically shows:
 - **swap**: usage of swap space (virtual memory)
 
 ### Sample Output:
-![alt text](images/image-39.png)
+
+![alt text](<Screenshot from 2025-09-09 20-40-37.png>)
+
 ---
 
 ## 4. Reflection

@@ -256,3 +256,36 @@ Run:
 
 ---
 
+
+## Extra Questions
+
+### 1. What is the purpose of `#!/bin/bash` at the top of a script?
+
+The line `#!/bin/bash` is called a **shebang** (or **hashbang**), and it serves an important role in shell scripting.
+
+### Explanation:
+- **`#!/bin/bash`** specifies the path to the **Bash shell** that will be used to interpret and execute the script.
+- This allows the system to know which interpreter (in this case, `bash`) to use when running the script, regardless of the user's current shell environment.
+
+### Why it's important:
+- It makes the script **portable**. Even if the script is executed in a different environment, it will always use `/bin/bash` as the interpreter.
+- Without this line, the script might not run correctly, or it may run with an incorrect interpreter, depending on the environment.
+
+### Example:
+
+```bash
+#!/bin/bash
+echo "Hello, World!"
+```
+
+## 2. How do you make a script executable?
+
+To make a script executable, you need to change its file permissions to allow execution.
+
+### Steps to Make a Script Executable:
+
+1. **Use `chmod` to add execute permissions**:
+   ```bash
+   chmod +x script_name.sh
+./script_name.sh
+

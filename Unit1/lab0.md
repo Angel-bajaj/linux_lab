@@ -24,7 +24,7 @@ Chosen Method: **Option A – Virtual Machine**
 1. Visit: [https://ubuntu.com/download/desktop](https://ubuntu.com/download/desktop)  
 2. Select **Ubuntu 22.04 LTS** and download the `.iso` file.  
 
-![alt text](images/image-1.png)
+![alt text](<../images/Screenshot (2).png>)
 
 ---
 
@@ -35,7 +35,6 @@ Chosen Method: **Option A – Virtual Machine**
 4. Double-click the `.deb` file → Install via Ubuntu Software.  
 5. Launch **VS Code** from the Applications menu.
 
-![alt text](images/image-2.png)
 
 ---
 
@@ -43,7 +42,7 @@ Chosen Method: **Option A – Virtual Machine**
 - You can now use VS Code inside Ubuntu for coding.  
 - Enable **full-screen mode** in VirtualBox for a better experience.  
 
-![alt text](<Screenshot from 2025-09-09 13-21-01.png>)
+![alt text](<../images/Screenshot from 2025-09-09 13-21-01.png>)
 ---
 
 ✅ **You have successfully set up VirtualBox, Ubuntu, and VS Code!**
@@ -72,7 +71,7 @@ It typically outputs:
 
 ### Sample Output:
 
-![alt text](<Screenshot from 2025-09-09 20-37-22.png>)
+![alt text](<../images/Screenshot from 2025-09-09 20-37-22.png>)
 
 ## 2️⃣ $ uname -a
 The command uname -a prints detailed system information about the Linux kernel and machine.
@@ -100,8 +99,7 @@ It typically outputs:
 - Operating system
 
 ## Sample Output:
-
-![alt text](<Screenshot from 2025-09-09 20-38-35.png>)
+![alt text](<../images/Screenshot from 2025-09-09 20-38-35.png>)
 
 ## 3️⃣  df -h
 The command df -h displays the disk space usage of all mounted file systems.
@@ -126,7 +124,7 @@ It typically shows:
 
 ### Sample Output:
 
-![alt text](<Screenshot from 2025-09-09 20-39-43.png>)
+![alt text](<../images/Screenshot from 2025-09-09 20-39-43.png>)
 
 ## 4️⃣ free -m
 The command free -m displays the system’s memory (RAM and swap) usage in megabytes.
@@ -153,7 +151,7 @@ It typically shows:
 
 ### Sample Output:
 
-![alt text](<Screenshot from 2025-09-09 20-40-37.png>)
+![alt text](<../images/Screenshot from 2025-09-09 20-40-37.png>)
 
 ---
 

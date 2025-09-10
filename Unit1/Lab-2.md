@@ -1,4 +1,4 @@
-# 🐚 Shell Scripting Tutorial!!
+# 🐚Lab 2 - Script Execution & Explanation
 
 Shell scripting allows you to **automate tasks** in Linux/Unix by writing commands inside a file that the shell executes line by line.
 
@@ -25,8 +25,7 @@ chmod +x hello.sh   # make it executable
 ```
 
 ### 📸Output image of the commands :
-
-
+![alt text](<../images/Screenshot from 2025-09-10 22-02-51.png>)
 ---
 
 ## 2. 🔹 Variables
@@ -40,23 +39,6 @@ name="Angel"
 age=18
 ```
 
-⚠️ No spaces around `=`.
-
-### Accessing variables
-
-```bash
-echo "My name is $name and I am $age years old."
-```
-
-Output:
-
-```
-My name is Angel and I am 18 years old.
-```
-### 📸output image of the commands : 
-
-
-
 ### Environment variables
 
 ```bash
@@ -64,38 +46,11 @@ echo $HOME   # home directory
 echo $USER   # current user
 echo $PWD    # present working directory
 ```
-
----
-
-## 3. 🔹 User Input
-
-Read input from user with `read`.
-
-```bash
-#!/bin/bash
-echo "Enter your favorite language:"
-read lang
-echo "You chose $lang"
-```
 ### 📸Output image of the commands :
-
-
+![alt text](<../images/Screenshot from 2025-09-10 22-06-39.png>)
 ---
-
-## 4. 🔹 Conditional Statements (if-else)
-
-```bash
-#!/bin/bash
-num=10
-
-if [ $num -gt 5 ]; then
-    echo "Number is greater than 5"
-else
-    echo "Number is less than or equal to 5"
-fi
-```
-
-Operators:
+---
+**Operators:**
 
 * `-eq` (equal)
 * `-ne` (not equal)
@@ -103,12 +58,11 @@ Operators:
 * `-lt` (less than)
 * `-ge` (greater or equal)
 * `-le` (less or equal)
-### 📸Output image of the commands :
 
 
 ---
 
-## 5. 🔹 Loops
+## 3. 🔹 Loops
 
 ### For loop
 
@@ -151,65 +105,11 @@ do
     ((x++))
 done
 ```
-
----
-
-## 6. 🔹 Functions
-
-Encapsulate reusable code.
-
-```bash
-greet() {
-    echo "Hello, $1"
-}
-
-greet Angel
-greet World
-```
-
-Output:
-
-```
-Hello, Angel
-Hello, World
-```
-###  📸Output image of the commands :
-
----
-
-## 7. 🔹 Command Line Arguments
-
-Access arguments passed to script:
-
-```bash
-#!/bin/bash
-echo "Script name: $0"
-echo "First argument: $1"
-echo "Second argument: $2"
-echo "All arguments: $@"
-echo "Number of arguments: $#"
-```
-
-Run:
-
-```bash
-./script.sh apple banana
-```
-
-Output:
-
-```
-Script name: ./script.sh
-First argument: apple
-Second argument: banana
-All arguments: apple banana
-Number of arguments: 2
-```
 ### 📸Output image of the commands :
+![alt text](<../images/Screenshot from 2025-09-10 22-09-39.png>)
 
----
 
-## 8. 🔹 Arrays
+## 4. 🔹 Arrays
 
 ```bash
 fruits=("apple" "banana" "cherry")
@@ -220,6 +120,8 @@ for fruit in "${fruits[@]}"; do
     echo "Fruit: $fruit"
 done
 ```
+### 📸Output image of the commands :
+![alt text](<../images/Screenshot from 2025-09-10 22-11-56.png>)
 
 ---
 
@@ -257,9 +159,9 @@ Run:
 ---
 
 
-## Extra Questions
+## 📌Extra Questions
 
-### 1. What is the purpose of `#!/bin/bash` at the top of a script?
+ **Q1.** What is the purpose of `#!/bin/bash` at the top of a script?
 
 The line `#!/bin/bash` is called a **shebang** (or **hashbang**), and it serves an important role in shell scripting.
 
@@ -267,7 +169,7 @@ The line `#!/bin/bash` is called a **shebang** (or **hashbang**), and it serves 
 - **`#!/bin/bash`** specifies the path to the **Bash shell** that will be used to interpret and execute the script.
 - This allows the system to know which interpreter (in this case, `bash`) to use when running the script, regardless of the user's current shell environment.
 
-### Why it's important:
+#### Why it's important:
 - It makes the script **portable**. Even if the script is executed in a different environment, it will always use `/bin/bash` as the interpreter.
 - Without this line, the script might not run correctly, or it may run with an incorrect interpreter, depending on the environment.
 
@@ -278,7 +180,7 @@ The line `#!/bin/bash` is called a **shebang** (or **hashbang**), and it serves 
 echo "Hello, World!"
 ```
 
-## 2. How do you make a script executable?
+**Q2.** How do you make a script executable?
 
 To make a script executable, you need to change its file permissions to allow execution.
 

@@ -286,6 +286,7 @@ To make a script executable, you need to change its file permissions to allow ex
 
 1. **Use `chmod` to add execute permissions**:
    ```bash
-   chmod +x script_name.sh
+### chmod +x script_name.sh Run the script:
+After making the script executable, you can run it directly:
 ./script_name.sh
 

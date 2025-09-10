@@ -12,7 +12,7 @@ Shell scripting allows you to **automate tasks** in Linux/Unix by writing comman
 
 **Example: `hello.sh`**
 
-```bash
+```bash 
 #!/bin/bash
 echo "Hello, World!"
 ```

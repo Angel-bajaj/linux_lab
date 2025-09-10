@@ -5,7 +5,7 @@
 This experiment covers installing **VirtualBox**, setting up **Ubuntu** inside it, installing **Visual Studio Code** on Ubuntu,running few usual commands.
 
 ---
-## 1. Installation Method
+## 1. Installation Method    
 Chosen Method: **Option A – Virtual Machine**  
 
 ## 2. Installation Steps

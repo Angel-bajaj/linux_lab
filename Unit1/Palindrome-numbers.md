@@ -1,9 +1,9 @@
 # 🔢 Palindrome Numbers Explained with Shell Scripting 🐚
 
-## What is a Palindrome Number? 🤔
+## What is a Palindrome Number?
 
 A **palindrome number** is a number that reads the **same forwards and backwards**!  
-It's like a mirror number! 🪞
+It's like a mirror number!
 
 ### Examples:  
 - `121` ✅  
